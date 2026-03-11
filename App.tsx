@@ -154,7 +154,7 @@ const HomePage: React.FC = () => {
         containerClass="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20"
         className="!border-b-0"
       >
-        <div className="max-w-3xl pt-12 md:pt-24">
+        <div className="max-w-xl lg:max-w-2xl xl:max-w-3xl pt-12 md:pt-24">
           <div className="drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
             <Badge variant="teal">VEREDICTOS VISION • PARCEIRO OFICIAL PREFEITURA RIO</Badge>
           </div>
@@ -501,8 +501,7 @@ const HomePage: React.FC = () => {
                   title: "IDENTIFICAÇÃO NA ATENÇÃO PRIMÁRIA",
                   icon: <User className="w-8 h-8" />,
                   items: [
-                    "O médico clínico identifica durante a consulta de rotina pacientes diabéticos, hipertensos ou com fatores de risco para glaucoma — e solicita retinografia como parte do protocolo de rastreamento.",
-                    "Nenhuma mudança no fluxo atual da rede."
+                    "O médico clínico identifica durante a consulta de rotina pacientes diabéticos, hipertensos ou com fatores de risco para glaucoma — e solicita retinografia como parte do protocolo de rastreamento."
                   ]
                 },
                 {
@@ -510,13 +509,13 @@ const HomePage: React.FC = () => {
                   title: "RETINOGRAFIA",
                   icon: <Camera className="w-8 h-8" />,
                   items: [
-                    "Técnico capacitado realiza o exame em 2 minutos. A imagem é capturada e enviada automaticamente para processamento.",
+                    "Técnico capacitado realiza o exame. A imagem é capturada e enviada automaticamente para processamento.",
                     "Equipamento: retinógrafo local. Sem necessidade de infraestrutura adicional."
                   ]
                 },
                 {
                   step: "3",
-                  title: "ANÁLISE EM 30 SEGUNDOS",
+                  title: "ANÁLISE",
                   icon: <Cpu className="w-8 h-8" />,
                   items: [
                     "A Veredictos Vision processa a imagem e os dados clínicos do paciente (HbA1c, PA, PIO) e gera:",
@@ -824,7 +823,7 @@ const HomePage: React.FC = () => {
               <span className="text-teal-400">Em operação no SUS.</span>
             </h2>
             <p className="text-xl md:text-2xl text-slate-300 font-medium max-w-4xl mx-auto leading-relaxed">
-              Da pesquisa ao protocolo clínico real — em parceria com a Secretaria Municipal de Saúde do Rio de Janeiro e o Centro Carioca do Olho.
+              Do desenvolvimento ao protocolo clínico formalizado — com Acordo de Cooperação Técnica assinado com a Secretaria Municipal de Saúde do Rio de Janeiro e o Centro Carioca do Olho / SPDM.
             </p>
           </div>
 
@@ -865,7 +864,7 @@ const HomePage: React.FC = () => {
                     <h4 className="text-lg font-black text-white uppercase tracking-wider">Secretaria Municipal de Saúde — Rio de Janeiro</h4>
                   </div>
                   <p className="text-slate-300 font-medium leading-relaxed text-sm">
-                    Protocolo clínico de triagem oftalmológica em desenvolvimento conjunto para a rede municipal. A Veredictos Vision é a solução tecnológica para detecção de retinopatia diabética, glaucoma e retinopatia hipertensiva no SUS carioca.
+                    Acordo de Cooperação Técnica firmado com a Secretaria Municipal de Saúde do Rio de Janeiro para implantação do protocolo de triagem oftalmológica inteligente na rede municipal. A Veredictos Vision é a solução tecnológica para detecção de retinopatia diabética, glaucoma e retinopatia hipertensiva no SUS carioca.
                   </p>
                 </div>
 
@@ -875,7 +874,7 @@ const HomePage: React.FC = () => {
                     <h4 className="text-lg font-black text-white uppercase tracking-wider">Centro Carioca do Olho</h4>
                   </div>
                   <p className="text-slate-300 font-medium leading-relaxed text-sm">
-                    Parceria técnica formalizada com um dos principais centros de referência em oftalmologia do Rio de Janeiro. Implementação do protocolo de triagem multi-patologia em curso.
+                    Parceria técnica formalizada com o Centro Carioca do Olho / SPDM — principal centro de referência em oftalmologia do Rio de Janeiro e executor técnico do Acordo de Cooperação Técnica com a SMS-Rio. Validação clínica do protocolo de triagem multi-patologia em curso.
                   </p>
                 </div>
               </div>
@@ -945,7 +944,7 @@ const HomePage: React.FC = () => {
             E a produção registrada no sistema.
           </p>
           <p className="text-lg md:text-xl text-slate-300 font-medium mb-12 leading-relaxed max-w-2xl mx-auto">
-            O Rio de Janeiro já está implementando. Estamos selecionando os próximos municípios parceiros.
+            O Rio de Janeiro assinou. A implementação começa agora. Estamos selecionando os próximos municípios parceiros.
           </p>
           <Link 
             to="/contato"
